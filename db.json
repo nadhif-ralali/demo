@@ -1,14 +1,17 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post satu" },
-    { "id": 2, "title": "Post dua" },
-    { "id": 3, "title": "Post tiga" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "response_code": 0,
+  "results": [
+      {
+          "category": "Animals",
+          "type": "multiple",
+          "difficulty": "easy",
+          "question": "What is the scientific name for modern day humans?",
+          "correct_answer": "Homo Sapiens",
+          "incorrect_answers": [
+              "Homo Ergaster",
+              "Homo Erectus",
+              "Homo Neanderthalensis"
+          ]
+      }
+    ]
 }
